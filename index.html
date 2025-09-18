@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Nicolás Strozzi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="codigo.js"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fa-solid fa-user"></i> Mi Portfolio</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#presentacion">Inicio</a></li>
+      <li><a href="#informacion">Información</a></li>
+      <li><a href="#conocimientos">Conocimientos</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#redes">Redes</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="presentacion">
+    <h2>Presentación</h2>
+    <img src="FotoPortfolio.jpg" alt="Foto de Nicolás">
+    <p>Soy Nicolás Strozzi, estudiante de la Tecnicatura en Programación (UTN Gral. Pacheco) y trabajador del rubro lácteo.
+  Antes de iniciar la carrera realicé varios cursos, que me dieron una base sólida en lógica y programación orientada a objetos
+  y despertaron mi pasión por el desarrollo de software, motivándome a inscribirme en la carrera para seguir aprendiendo.
+  Mi objetivo es continuar formándome y crecer como programador profesional, para dedicarme a tiempo completo al desarrollo de software.</p>
+  </section>
+<section id="informacion">
+  <h2>Información General</h2>
+  <ul class="info-lista">
+    <li><i class="fa-solid fa-location-dot"></i> Arroyo Cabral, Córdoba, Argentina</li>
+    <li><i class="fa-solid fa-user-graduate"></i> Estudiante 2.º año – Tecnicatura en Programación (UTN Gral. Pacheco)</li>
+    <li><i class="fa-solid fa-briefcase"></i> Trabajo actual en industria láctea</li>
+    <li><i class="fa-solid fa-code-branch"></i> Intereses: desarrollo backend, aplicaciones moviles, bases de datos</li>
+    <li><i class="fa-solid fa-language"></i> Idiomas: Español nativo · Inglés intermedio</li>
+     </ul>
+</section>
+ 
+<section id="conocimientos">
+    <h2>Conocimientos</h2>
+    <ul>
+      <li><i class="fa-brands fa-html5"></i> HTML</li>
+      <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+      <li><i class="fa-brands fa-js"></i> JavaScript</li>
+      <li><i class="fa-brands fa-java"></i> Java</li>
+      <li><i class="fa-solid fa-database"></i> SQL Server</li>
+      <li><i class="fa-brands fa-windows"></i> C# / .NET</li>
+      <li><i class="fa-brands fa-github"></i> Git y GitHub</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+  <h2>Proyectos</h2>
+
+  <div id="tarjetas">
+    <article>
+      <h3>TPWinForm_Equipo13B</h3>
+      <p>Aplicación de escritorio en C# WinForms para gestión de artículos y filtros.</p>
+      <p><strong>Tecnologías:</strong> C#, WinForms, SQL Server</p>
+      <a href="https://github.com/NicoStrozzi/TPWinForm_Equipo13B" target="_blank" rel="noreferrer">
+        <i class="fa-brands fa-github"></i> Ver repositorio
+      </a>
+    </article>
+
+    <article>
+      <h3>tpf-java</h3>
+      <p>Proyecto Java con prácticas de programación orientada a objetos.</p>
+      <p><strong>Tecnologías:</strong> Java, POO</p>
+      <a href="https://github.com/NicoStrozzi/tpf-java" target="_blank" rel="noreferrer">
+        <i class="fa-brands fa-github"></i> Ver repositorio
+      </a>
+    </article>
+  
+    <article>
+      <h3>Bonzo</h3>
+      <p>Repositorio de práctica y ejemplos varios.</p>
+      <p><strong>Tecnologías:</strong> C++</p>
+      <a href="https://github.com/NicoStrozzi/Bonzo" target="_blank" rel="noreferrer">
+        <i class="fa-brands fa-github"></i> Ver repositorio
+      </a>
+    </article>
+  </div>
+</section>
+
+  <section id="redes">
+    <h2>Redes</h2>
+     <p>Encontrame en mis redes o escribime un mensaje directo:</p>
+    <a href="https://github.com/NicoStrozzi" title="GitHub" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/nicol%C3%A1s-strozzi-590616280/" title="Linkedin" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://instagram.com/nico.strozzi" title="Instagram" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+     <a href="mailto:nico.strozzi@gmail.com" title="Enviar email"><i class="fa-solid fa-envelope"></i>
+  </a>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="form-contacto">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="mensaje" placeholder="Escribí tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+  <small>© 2025 Nicolás Strozzi — Hecho con HTML, CSS y JavaScript</small>
+</footer>
+
+  <script src="codigo.js"></script>
+</body>
+</html>
