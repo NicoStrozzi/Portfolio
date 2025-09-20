@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: aliceblue; 
+  color: dimgray;
+}
+header {
+  background: dodgerblue; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #1976d2; 
+  margin: 0;
+  padding: 0;
+}
+nav li { margin: 0 15px; }
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover { text-decoration: underline; }
+
+section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+#presentacion { background: aliceblue; }  
+#informacion  { background: honeydew; } 
+#conocimientos{ background: lemonchiffon; }  
+#proyectos    { background: thistle; }  
+#redes        { background: lavender; text-align: center; font-size: 28px; }
+#contacto     { background: mintcream; }  
+
+#presentacion img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 250px; 
+  height: 250px;
+  max-width: 40vw;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid dodgerblue;
+}
+
+ul li {
+  padding: 6px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+#redes a { margin: 0 10px; color: dodgerblue; }
+#redes a:hover { transform: translateY(-2px) scale(1.06); color:royalblue; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+button {
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background .2s;
+}
+button:hover { background: royalblue; }
+
+footer {
+  max-width: 980px; margin: 10px auto 30px;
+  text-align: center; color:gray;
+}
